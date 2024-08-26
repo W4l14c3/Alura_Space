@@ -2,6 +2,9 @@
 from django.shortcuts import render
 
 
-#Função que ira receber a requisição e responder com a pagina requisitada.
+#Funções que iram receber a requisição e responder com a pagina requisitada.
 def index(request):
     return render (request, 'galeria/index.html')
+
+def imagem(request):
+    return render(request, 'galeia/imagem.html')
