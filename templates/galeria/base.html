@@ -14,7 +14,10 @@
 </head>
 
 <body>
+    {% include 'galeria/partials/_menu.html' %}
     <!-- Esse espaço vai ser preenchido com o conteudo das outras paginas html. -->
     {% block content %}{%endblock%}
+    <!-- Inclui o footer de partials -->
+    {% include 'galeria/partials/_footer.html' %}
 </body>
 </html>
